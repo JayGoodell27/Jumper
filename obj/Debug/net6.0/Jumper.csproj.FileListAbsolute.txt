@@ -1,0 +1,5 @@
+C:\Git\Jumper\obj\Debug\net6.0\Jumper.csproj.AssemblyReference.cache
+C:\Git\Jumper\obj\Debug\net6.0\Jumper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfoInputs.cache
+C:\Git\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfo.cs
+C:\Git\Jumper\obj\Debug\net6.0\Jumper.csproj.CoreCompileInputs.cache
