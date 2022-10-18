@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Jumper\\Jumper.csproj": {}
+    "C:\\Users\\josep\\Documents\\GitHub\\Jumper\\Jumper.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Jumper\\Jumper.csproj": {
+    "C:\\Users\\josep\\Documents\\GitHub\\Jumper\\Jumper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Jumper\\Jumper.csproj",
+        "projectUniqueName": "C:\\Users\\josep\\Documents\\GitHub\\Jumper\\Jumper.csproj",
         "projectName": "Jumper",
-        "projectPath": "C:\\Git\\Jumper\\Jumper.csproj",
-        "packagesPath": "C:\\Users\\JayDo\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Jumper\\obj\\",
+        "projectPath": "C:\\Users\\josep\\Documents\\GitHub\\Jumper\\Jumper.csproj",
+        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josep\\Documents\\GitHub\\Jumper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JayDo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
