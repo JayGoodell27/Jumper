@@ -17,10 +17,10 @@ class Words
         var random = wordList[randIndex];
         return random;   
     }
-    public List<string> LetterSeperate(string WordGive)
+    public char[] LetterSeperate(string WordGive)
     {
-
-    List<string> WordSeperated = WordGiven.ToCharArray();
+    string currentWord = WordGive;
+    char[] WordSeperated = currentWord.ToCharArray();
     Console.Write(WordSeperated);
     return WordSeperated;
     }
