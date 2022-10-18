@@ -42,8 +42,8 @@ class parachute
      / \
    ^^^^^^^"};
 
-   public int stageChange(stage)
-   }
+   //public int stageChange(stage)
+   //}
 
 
 }
