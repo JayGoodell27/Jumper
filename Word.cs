@@ -17,7 +17,7 @@ class Words
         var random = wordList[randIndex];
         return random;   
     }
-    public List<string> LetterSeperate(WordGiven)
+    public List<string> LetterSeperate(string WordGive)
     {
 
     List<string> WordSeperated = WordGiven.ToCharArray();
