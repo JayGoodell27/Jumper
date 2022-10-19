@@ -1,5 +1,5 @@
-﻿GameSystem run = new GameSystem();
-run.Main();
+﻿// GameSystem run = new GameSystem();
+// run.Main();
 
 
 
