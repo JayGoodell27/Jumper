@@ -19,7 +19,7 @@ public GameSystem()
     {   
         char[] UpdateStarLine()
             {
-            char[] updated = compare.SendLine;
+            char[] updated = compare.SendLine();
             return updated;
             }
 
