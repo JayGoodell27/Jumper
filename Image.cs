@@ -42,8 +42,8 @@ class parachute
      / \
    ^^^^^^^"};
 
-  public string paraPop() {
-    int stage = compare.wrongAnswer();
+  public string paraPop(int stage) {
+    // int stage = compare.wrongAnswer();
     string currentImage;
     if (stage == 0) {
       currentImage = img[stage];

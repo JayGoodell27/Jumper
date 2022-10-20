@@ -5,9 +5,9 @@ class Words
         string WordGive()
             {
             List<string> wordList = new List<string>();
-            wordList.Add("runny");
+            wordList.Add("chaps");
             wordList.Add("actor");
-            wordList.Add("silly");
+            wordList.Add("happy");
             Random rnd = new Random();
             int randIndex = rnd.Next(wordList.Count);
             var random = wordList[randIndex];
