@@ -1,6 +1,6 @@
 class parachute 
 {
-  Compare compare = new Compare();
+ Compare compare = new Compare();
  //the images for the jumper.
  public string[] img ={
    @"
@@ -63,4 +63,3 @@ class parachute
     return currentImage;
    }
 }
-///
