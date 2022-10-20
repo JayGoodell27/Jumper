@@ -1,4 +1,4 @@
-Words GivenWord = new Words();
+//Words GivenWord = new Words();
 
 // char[] wordForGame = WordsTest.LetterSeperate();
 // List<string> Display = new List<string>();
@@ -63,6 +63,7 @@ private char ReturnGuess(char[] wordForGame, char charUserInput)
     }
     return correctGuess;
 }
+//the main method that will grab info from game.cs
 public List<string> CompareGuess(TheGuess)
 {
     

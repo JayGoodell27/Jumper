@@ -10,9 +10,12 @@ parachute chute = new parachute();
 Compare compare = new Compare();
     public void Main()
     {    
+
          Console.Write(chute.paraPop());
          Console.Write("Guess The Letter");
-        
+        string? guess = Console.ReadLine();
+        compare.CompareGuess(guess)
+
         
         
         
