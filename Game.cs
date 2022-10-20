@@ -1,5 +1,9 @@
 ﻿GameSystem run = new GameSystem();
-run.Main();
+while (run.wrongGuess != 4)
+{
+    run.Main();
+}
+Console.WriteLine("You Lost!");
 
 
 
@@ -8,7 +12,7 @@ class GameSystem
 {
 parachute chute = new parachute();
 Compare compare = new Compare();
-int wrongGuess;
+public int wrongGuess;
 public GameSystem()
 {
     wrongGuess = 0;
@@ -30,7 +34,8 @@ public GameSystem()
          string? guess = Console.ReadLine();
          char charGuess = char.Parse(guess);
          char[] newStarLine = compare.CompareGuess(charGuess);
-         if (newStarLine == currentLine)
+         bool boolGuess = compare.BoolGuess(charGuess);
+         if (boolGuess == false)
             {
                 Console.WriteLine("You didn't guess a correct letter!");
                 wrongGuess = wrongGuess + 1;
@@ -38,7 +43,6 @@ public GameSystem()
         else
             {
                 Console.WriteLine("You guessed correctly!");
-                Console.WriteLine($"Here is your new guess line{newStarLine}");
             }
     }
 

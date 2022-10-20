@@ -2,7 +2,7 @@ class Compare
 {
 Words GivenWord = new Words();
 char[] wordGiven;
-public char[] starLine;
+private char[] starLine;
 
 public Compare()
 {
@@ -68,7 +68,11 @@ if (guessIsTrue == true)
         return starLine;
     }
 }
-
+public bool BoolGuess(char TheGuess)
+{
+bool guessIsTrue = ReturnIsTrue(wordGiven, TheGuess);
+return guessIsTrue;
+}
 public int wrongAnswer() {
     int tally = 0;
     tally += 1; 
@@ -77,7 +81,8 @@ public int wrongAnswer() {
 
 public char[] SendLine()
 {
-    return starLine;
+    char[] currentStarLine = starLine;
+    return currentStarLine;
 }
 
 }
