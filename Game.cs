@@ -16,10 +16,10 @@ public GameSystem()
 
 }
     public void Main()
-    {   
+    {  
         char[] UpdateStarLine()
             {
-            char[] updated = compare.SendLine;
+            char[] updated = compare.starLine;
             return updated;
             }
 
@@ -27,7 +27,7 @@ public GameSystem()
          Console.WriteLine(chute.paraPop(wrongGuess));
          Console.WriteLine($"Here is the guess line {new string(currentLine)}");
          Console.WriteLine("Guess The Letter");
-         string guess = Console.ReadLine();
+         string? guess = Console.ReadLine();
          char charGuess = char.Parse(guess);
          char[] newStarLine = compare.CompareGuess(charGuess);
          if (newStarLine == currentLine)
@@ -42,5 +42,5 @@ public GameSystem()
             }
     }
 
-
+    
 }

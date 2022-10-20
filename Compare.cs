@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 //Words GivenWord = new Words();
 
 // char[] wordForGame = WordsTest.LetterSeperate();
@@ -15,7 +13,6 @@
 // var charUserInput = userInput.ToCharArray();
 // int NumberCounter = -1;
 // string StringWord = wordForGame.ToString();
->>>>>>> f3e743bd41c0373508937edbb6a9b4a9235f0cfc
 class Compare
 {
 Words GivenWord = new Words();
@@ -69,12 +66,7 @@ private char ReturnGuess(char[] wordForGame, char charUserInput)
     }
     return correctGuess;
 }
-<<<<<<< HEAD
 public char[] CompareGuess(char TheGuess)
-=======
-//the main method that will grab info from game.cs
-public List<string> CompareGuess(TheGuess)
->>>>>>> f3e743bd41c0373508937edbb6a9b4a9235f0cfc
 {
 bool guessIsTrue = ReturnIsTrue(wordGiven, TheGuess);
 int index = ReturnIndex(wordGiven, TheGuess);
