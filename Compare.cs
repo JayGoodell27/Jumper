@@ -73,11 +73,7 @@ public bool BoolGuess(char TheGuess)
 bool guessIsTrue = ReturnIsTrue(wordGiven, TheGuess);
 return guessIsTrue;
 }
-public int wrongAnswer() {
-    int tally = 0;
-    tally += 1; 
-    return tally;
-}
+
 
 public char[] SendLine()
 {
