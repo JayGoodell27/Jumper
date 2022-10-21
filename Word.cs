@@ -7,7 +7,7 @@ class Words
             List<string> wordList = new List<string>();
             wordList.Add("chaps");
             wordList.Add("actor");
-            wordList.Add("happy");
+            wordList.Add("hacky");
             Random rnd = new Random();
             int randIndex = rnd.Next(wordList.Count);
             var random = wordList[randIndex];

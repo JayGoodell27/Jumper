@@ -1,11 +1,20 @@
 ﻿GameSystem run = new GameSystem();
-while (run.wrongGuess != 4)
+while (run.wrongGuess != 4 ^ run.correctGuess == 5)
 {
     run.Main();
 }
-parachute chute = new parachute();
-Console.WriteLine(chute.img[4]);
-Console.WriteLine("You Lost!");
+if (run.correctGuess == 5)
+{
+    Console.WriteLine("You Won!");
+}
+else
+{
+    parachute chute = new parachute();
+    Console.WriteLine(chute.img[4]);
+    Console.WriteLine("You Lost!");
+
+}
+
 
 
 
@@ -15,9 +24,11 @@ class GameSystem
 parachute chute = new parachute();
 Compare compare = new Compare();
 public int wrongGuess;
+public int correctGuess;
 public GameSystem()
 {
     wrongGuess = 0;
+    correctGuess = 0;
     
 
 }
@@ -45,6 +56,7 @@ public GameSystem()
         else
             {
                 Console.WriteLine("You guessed correctly!");
+                correctGuess = correctGuess + 1;
             }
     }
 
