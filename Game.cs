@@ -3,6 +3,8 @@ while (run.wrongGuess != 4)
 {
     run.Main();
 }
+parachute chute = new parachute();
+Console.WriteLine(chute.img[4]);
 Console.WriteLine("You Lost!");
 
 
